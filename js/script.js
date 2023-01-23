@@ -2,7 +2,6 @@
 const newItem = () => {
     let inputValue = $('#input').val();
     let li = $(`<li>${inputValue}</li>`);
-    // li.append(document.createTextNode(inputValue));
 
     if (inputValue === '') {
         alert('You must write something!');
