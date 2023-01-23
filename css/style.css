@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+    font: normal normal 13px/16px "Open Sans", sans-serif;
+    background: #b9d4de;
+    color:#263136;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: white;
+    border-radius: 5px;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+form {
+    display: inline-block;
+}
+
+input{
+    border: 1px solid #8ea0a7; 
+    border-radius: 2px;
+    padding: 4px 15px 4px 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #e8a256;
+}
+
+li:hover {
+    cursor: default;
+}
+
+#button {
+    display: inline-block;
+    background-color:#eb6c6e;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+    padding: 5px 15px;
+    transition: all .2s ease;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #fc999b;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    transform: translateY(-2px);
+}
+
+.delete {
+    display: none;
+}
+
+.strike {
+    text-decoration: line-through solid #eb6c6e;
+}
+
+.btn-delete {
+    cursor: pointer;
+    background-color: #e8a256;
+    border:none;
+    border-radius: 2px;
+    color:#fff;
+    padding: 0 8px;
+    margin-left: 20px;
+    transition: all .2s ease;
+}
+
+.btn-delete:hover {
+    opacity: .8;
+} 
+
